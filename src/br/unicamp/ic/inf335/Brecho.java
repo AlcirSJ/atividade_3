@@ -7,8 +7,9 @@ import br.unicamp.ic.inf335.beans.ProdutoBean;
 
 public class Brecho {
 
+	//correcao
 	private static ArrayList<ProdutoBean> produtos = new ArrayList<ProdutoBean>();
-	
+
 	public static void main(String[] args) {
 		ProdutoBean nProg = new ProdutoBean("CD00001","Celular Galaxy S10", "128 Gb, Preto, com Carregador",1250.0,"Poucos riscos, estado de novo.");
 		nProg = new ProdutoBean("CD00002","Prod 2 ...", "Bla Bla Bla",1100.0,"Bla Bla Bla");
@@ -32,7 +33,7 @@ public class Brecho {
 			System.out.println("Codigo = " + produtos.get(i).getCodigo() + " Nome = " + produtos.get(i).getNome() + " Valor = " + produtos.get(i).getValor());
 		}
 		
-		// Calcula Média
+		// Calcula Mï¿½dia
 		Double media = 0.0;
 		int i = 1;
 		while (i<=produtos.size()) {
